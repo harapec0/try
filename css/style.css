@@ -425,7 +425,7 @@ button.hamburgmenu > i.icon-close {
 
 @media only screen and (max-width: 600px){
     .grid2 > .item2 > img {
-        margin-right: 20px;
+        margin-right: 10px;
         width: 35%;
     }
     .tampil {
@@ -442,5 +442,17 @@ button.hamburgmenu > i.icon-close {
     .tampil > ul > li {
         padding: 10px 20px 10px 20px;
 
+    }
+    .itemdetail {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .itemdetail p {
+        display: none;
     }
 }
